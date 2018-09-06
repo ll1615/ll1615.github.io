@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="blog.liulin.date">
-  <title>blog</title>
+  <title>ssh | blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="blog">
-<meta property="og:url" content="blog.liulin.date/index.html">
+  <meta name="description" content="创建 SSH 密钥对SSH 密钥对可以让用户无需输入密码即可登录到 SSH 服务器中。由于登录的过程不需要密码，因此可以防止由于密码被拦截、破解造成的账户密码泄露。再加上密码短语(passphrase)的使用，使得 SSH 的安全性更高一层。 SSH 密钥对总是一把公钥、一把私钥的成对出现；公钥可以自由的添加到远程 SSH 服务器中用来验证用户是否合法；私钥相当于自己的身份认证，需要妥善保存不能泄">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ssh">
+<meta property="og:url" content="blog.liulin.date/2018/09/06/ssh/index.html">
 <meta property="og:site_name" content="blog">
+<meta property="og:description" content="创建 SSH 密钥对SSH 密钥对可以让用户无需输入密码即可登录到 SSH 服务器中。由于登录的过程不需要密码，因此可以防止由于密码被拦截、破解造成的账户密码泄露。再加上密码短语(passphrase)的使用，使得 SSH 的安全性更高一层。 SSH 密钥对总是一把公钥、一把私钥的成对出现；公钥可以自由的添加到远程 SSH 服务器中用来验证用户是否合法；私钥相当于自己的身份认证，需要妥善保存不能泄">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-09-06T00:30:57.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blog">
+<meta name="twitter:title" content="ssh">
+<meta name="twitter:description" content="创建 SSH 密钥对SSH 密钥对可以让用户无需输入密码即可登录到 SSH 服务器中。由于登录的过程不需要密码，因此可以防止由于密码被拦截、破解造成的账户密码泄露。再加上密码短语(passphrase)的使用，使得 SSH 的安全性更高一层。 SSH 密钥对总是一把公钥、一把私钥的成对出现；公钥可以自由的添加到远程 SSH 服务器中用来验证用户是否合法；私钥相当于自己的身份认证，需要妥善保存不能泄">
   
     <link rel="alternative" href="/atom.xml" title="blog" type="application/atom+xml">
   
@@ -156,16 +160,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-ssh" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-ssh" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/09/06/ssh/">ssh</a>
+    <h1 class="article-title" itemprop="name">
+      ssh
     </h1>
   
 
@@ -220,16 +222,65 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/09/06/ssh/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http:blog.liulin.date/2018/09/06/ssh/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -249,8 +300,14 @@
 
 
 
+  
+  
+  
 
   
+
+  
+
   
 
 
@@ -277,8 +334,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
